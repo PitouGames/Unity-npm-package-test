@@ -1,0 +1,27 @@
+{
+  "name": "com.pitou.test",
+  "version": "0.1.0",
+  "displayName": "Test package on github",
+  "description": "Test package on github with npm",
+  "unity": "2021.3",
+  "unityRelease": "11f1",
+  "dependencies": { },
+  "keywords": [
+    "Unity",
+    "Test"
+  ],
+  "author": {
+    "name": "Pitou",
+    "email": "pitou.games@exemple.com",
+    "url": "https://exemple.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PitouGames/Unity-npm-package-test.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/@pitougames"
+  },
+  "type": "library"
+}
